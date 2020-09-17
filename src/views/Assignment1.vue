@@ -6,7 +6,7 @@
           <h1>Assignment 1</h1>
           <hr class="mb-2 header-rule">
           <p>
-            For the first deliverable, you are to create a webpage with the project description and various links (e.g., tutorials, documents, books, discussion groups, group policy, and source code location) about your project. The webpage should contain sufficient information to help a newcomer to a software project get up to speed. You can use cloud or github for hosting it. You will get access to one cloud.
+            For the first deliverable, we created a webpage with the project description and various links (e.g., tutorials, documents, books, discussion groups, group policy, and source code location) about our project. This webpage contains sufficient information to help a newcomer to a software project get up to speed. We use github for hosting it.
           </p>
         </header>
         <hr class="my-2">
