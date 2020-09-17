@@ -6,7 +6,7 @@
 				:router="true"
         :side-nav="sideNav"
         toggle="full"
-				class="my-5"
+				class="my-4"
       >
       <div 
         class="container" 
