@@ -1,32 +1,89 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
+    <rbc-layout
+        top-nav
+        logo="https://www.freepnglogos.com/uploads/handcuffs-png/handcuffs-clipart-png-and-cliparts-for-download-hddfhm-2.png" 
+				:router="true"
+        :side-nav="sideNav"
+        toggle="full"
+				class="my-5"
+      >
+      <div 
+        class="container" 
+				slot="content"
+      >
+				<div class="row">
+					<div class="col-md-12">
+					<transition name="fade" mode="out-in">
+            <router-view /> 
+					</transition>				
+					</div>
+				</div>
+			</div>
+		</rbc-layout>
   </div>
 </template>
 
+<script>
+import 'rbc-wm-framework-vuejs/dist/wm/vendors/';
+import 'rbc-wm-framework-vuejs/dist/wm/';
+import 'rbc-wm-framework-vuejs/dist/wm/style-fa.css';
+import 'rbc-wm-framework-vuejs/dist/wm/components/style-fa.css';
+import 'rbc-wm-framework-vuejs/dist/wm/components/Core/style-fa.css';
+import { Layout } from 'rbc-wm-framework-vuejs/dist/wm/components';
+export default {
+  name: 'App',
+  components: {
+    'rbc-layout': Layout
+  },
+  data() {
+  return {
+		sideNav: [
+			{
+				name: 'Home',
+				displayName: 'Home',
+				showInMenu: true,
+				meta: {
+					order: 0
+				}
+			},
+			{
+				name: 'Assignment1',
+				displayName: 'Assignment 1',
+				showInMenu: true,
+				meta: {
+					order: 1
+				}
+			}
+		]
+  }
+  }
+}
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,400i,500,700|Roboto:300,400,400i,500,700');
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap-grid.min.css');
+@import '../style.css';
+.fade-enter {
+  opacity: 0;
 }
 
-#nav {
-  padding: 30px;
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease-out;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.fade-leave-to {
+  opacity: 0;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+.header-rule {
+    width: 3.4375rem;
+    border: 0;
+    border-top: 4px solid #fedf01;
+    text-align: left;
+		margin: 2rem 0;
 }
+
 </style>

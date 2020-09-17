@@ -1,18 +1,42 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <header>
+          <h1>EECS 4314 - Team Prism Break</h1>
+          <hr class="mb-2 header-rule">
+          <p>
+            The purpose of all these assignments is to give you an appreciation of the process for creating and evolving the software design and architecture in the context of a large-scale software system. You will choose a project and create a detailed architecture for your software system. The architecture will be updated throughout the term and will be posted online
+          </p>
+        </header>
+        <hr class="my-2">
+        <rbc-card class="mt-3">
+          <h2>Members</h2>
+          <ul class="list-highlight">
+            <li class="mb-1">Jinho Hwang</li>
+            <li class="mb-1">Jamie Dishy</li>
+            <li class="mb-1">Kevin Banh</li>
+            <li class="mb-1">Allen Kaplan</li>
+            <li class="mb-1">Amer Alshoghri</li>
+          </ul>
+        </rbc-card>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
-export default {
+import { Card } from 'rbc-wm-framework-vuejs/dist/wm/components';
+export default { 
   name: "Home",
   components: {
-    HelloWorld
+    "rbc-card": Card
   }
 };
 </script>
+
+<style scoped>
+h1 {
+  font-size: 3.074rem;
+}
+</style>
