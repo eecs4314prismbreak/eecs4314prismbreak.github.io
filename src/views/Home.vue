@@ -13,11 +13,11 @@
         <rbc-card class="mt-3">
           <h2>Members</h2>
           <ul class="list-highlight">
-            <li class="mb-1">Jinho Hwang</li>
-            <li class="mb-1">Jamie Dishy</li>
+            <li class="mb-1">Jinho Hwang - 215240559</li>
+            <li class="mb-1">Jamie Dishy - 212904041</li>
             <li class="mb-1">Kevin Banh</li>
-            <li class="mb-1">Allen Kaplan</li>
-            <li class="mb-1">Amer Alshoghri</li>
+            <li class="mb-1">Allen Kaplan - 215494925</li>
+            <li class="mb-1">Amer Alshoghri - 214992291</li>
           </ul>
         </rbc-card>
       </div>
