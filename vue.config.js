@@ -1,3 +1,3 @@
 module.exports = {
-	publicPath: 'eecs4314prismbreak.github.io'
+	publicPath: '/eecs4314prismbreak.github.io/'
 };
