@@ -2,7 +2,7 @@
   <div id="app">
     <rbc-layout
         top-nav
-        logo="https://www.freepnglogos.com/uploads/handcuffs-png/handcuffs-clipart-png-and-cliparts-for-download-hddfhm-2.png" 
+        logo="https://previews.123rf.com/images/captainvector/captainvector1705/captainvector170500519/77372806-handcuffs-vector-illustration.jpg" 
 				:router="true"
         :side-nav="sideNav"
         toggle="full"

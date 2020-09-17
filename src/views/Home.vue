@@ -6,7 +6,7 @@
           <h1>EECS 4314 - Team Prism Break</h1>
           <hr class="mb-2 header-rule">
           <p>
-            The purpose of all these assignments is to give you an appreciation of the process for creating and evolving the software design and architecture in the context of a large-scale software system. You will choose a project and create a detailed architecture for your software system. The architecture will be updated throughout the term and will be posted online
+            These assignments are intended to provide students with an appreciation for creating and evolving the software design and architecture in the context of a large-scale software system. This document outlines Prism Break's project and a detailed architecture for its software system. The architecture will be updated throughout the term according to each assignment.
           </p>
         </header>
         <hr class="my-2">
