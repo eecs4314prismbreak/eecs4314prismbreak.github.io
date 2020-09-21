@@ -17,7 +17,7 @@
         <hr class="my-2" />
         <rbc-card class="mt-3">
           <h2>Members</h2>
-          <ul class="mt-2 list-highlight">
+          <ul class="list-highlight">
             <li class="mb-1">Jinho Hwang - 215240559</li>
             <li class="mb-1">Jamie Dishy - 212904041</li>
             <li class="mb-1">Kevin Banh - 213565676</li>
