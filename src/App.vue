@@ -51,6 +51,30 @@ export default {
           meta: {
             order: 1
           }
+        },
+        {
+          name: "Assignment2",
+          displayName: "Assignment 2",
+          showInMenu: true,
+          meta: {
+            order: 2
+          }
+        },
+        {
+          name: "Assignment3",
+          displayName: "Assignment 3",
+          showInMenu: true,
+          meta: {
+            order: 3
+          }
+        },
+        {
+          name: "Assignment4",
+          displayName: "Assignment 4",
+          showInMenu: true,
+          meta: {
+            order: 4
+          }
         }
       ]
     };
