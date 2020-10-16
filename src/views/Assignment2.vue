@@ -14,7 +14,7 @@
           <h2>Submissions</h2>
           <ul class="list-highlight">
             <li class="mb-1">
-              <a href="#" class="file-ppt">Presentation Slides</a>
+              <a href="https://docs.google.com/presentation/d/1RHgrhinAlaus3K48sdG81miNP7AC0mwbCLTaglNTVaY/edit?usp=sharing" class="file-ppt">Presentation Slides</a>
             </li>
             <li class="mb-1">
               <a href="https://docs.google.com/document/d/14rVDym5iTTMfnG351SsIfsjGwDa-2hcrpQqlIBS2jwI/edit?usp=sharing" class="file-pdf">Report</a>
