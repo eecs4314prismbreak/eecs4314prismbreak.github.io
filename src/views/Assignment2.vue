@@ -6,18 +6,7 @@
           <h1>Assignment 2</h1>
           <hr class="mb-2 header-rule" />
           <p>
-            For this deliverable, you will submit a report (10 - 15 pages long)
-            that gives the abstract (i.e., conceptual) architecture of the
-            project (Appendix A). Your report should be posted online. It should
-            be web-readable, with appropriate links to web-accessible related
-            content. The report should contain sufficient information to help a
-            newcomer to a software project get up to speed. Your reports should
-            present the conceptual structure of the software system rather than
-            discuss the details of its design and implementation. The conceptual
-            architecture should focus mostly on the problem domain and
-            architecture patterns. At this stage you do not have to focus on
-            platform specific models or details such as service oriented, cloud,
-            continuous delievery, etc.
+            For this deliverable, Prism Break presents a report that covers the conceptual architecture of WheyPal. It is web-readable, with appropriate links to web-accessible related content. The report contains sufficient information to help a newcomer to a software project get up to speed. The conceptual architecture focusses primarily on the problem domain and architecture patterns.
           </p>
         </header>
         <hr class="my-2" />
@@ -28,7 +17,7 @@
               <a href="#" class="file-ppt">Presentation Slides</a>
             </li>
             <li class="mb-1">
-              <a href="#" class="file-pdf">Report</a>
+              <a href="https://docs.google.com/document/d/14rVDym5iTTMfnG351SsIfsjGwDa-2hcrpQqlIBS2jwI/edit?usp=sharing" class="file-pdf">Report</a>
             </li>
           </ul>
         </rbc-card>
